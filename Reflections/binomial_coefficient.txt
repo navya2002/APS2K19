@@ -4,7 +4,7 @@ Reflection on ways of getting binomial co-efficients.
 
 1. Recursive method.
 Time complexity- o(n * k)
-This method is best suited when we require single value ,for example n=5,k=3 an dthe answer is 10.
+This method is best suited when we require single value ,for example n=5,k=3 and the answer is 10.
 
 2. Dynamic programming approach- 2D array method. It uses 2D array c[][] to calculate binomial co-efficients.
 Time complexity - o(n * k)
