@@ -14,7 +14,8 @@ This method is best suited when we want many rows of binomial co-efficients.
 3.Dynamic programming approach- 1D method. It is space optimized dynamic approach.
 Time complexity - o(n * k)
 Space complexity- o(k)
-This method is used when we want one row of co-efficient. It calculates iteratively each row by replacing the previous row and then replaces the previous row with the current row.
+This method is used when we want one row of co-efficient. It calculates iteratively each row by replacing
+the previous row and then replaces the previous row with the current row.
 
 
 All three ways have same time complexity. i.e o(n * k)
