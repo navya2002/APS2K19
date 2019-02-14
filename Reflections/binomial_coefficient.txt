@@ -1,1 +1,18 @@
+Reflection on ways of getting binomial co-efficients.
+
+3 ways of getting binomial co-efficients(Pascal's triangle)
+
+1. Recursive method.
+Time complexity- o(n * k)
+This method is best suited when we require single value ,for example n=5,k=3 an dthe answer is 10.
+
+2. Dynamic programming approach- 2D array method. It uses 2D array c[][] to calculate binomial co-efficients.
+Time complexity - o(n * k)
+Space complexity- o(n * k)
+This method is best suited when we want many rows of binomial co-efficients.
+
+3.Dynamic programming approach- 1D method. It is space optimized dynamic approach.
+Time complexity - o(n * k)
+Space complexity- o(k)
+This method is used when we want one row of co-efficient. It calculates iteratively each row by replacing the previous row and then replaces the previous row with the current row.
 
