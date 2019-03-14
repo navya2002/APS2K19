@@ -1,1 +1,18 @@
+Array query problem.
+The following three methods are used to find minimum value within a given range L to R.
+1.Look up table technique.
+Time complexity: o(n * n)
+Space complexity: o(n * n)
+A 2d array is used to maintain a minimum value between range i and j. Minimum of given range is calculated in o(1) time.
+
+2.Square root decomposition.
+Time Complexity:o(sqrt(n))
+space complexity:O(n)
+Divide the range [0, n-1] into different blocks of √n each. Compute minimum of every block of size √n and store the results.
+3.Segment tree.
+Time complexity:O(log(n))
+root node has all elements of the array. leaf nodes represent each element in the array. internal nodes have elements in some range i and j i.e at each internal node we divide the interval into halves and two children represent halves.
+Applications: Finding minimum or maximum or sum between the range L and R.
+
+
 
